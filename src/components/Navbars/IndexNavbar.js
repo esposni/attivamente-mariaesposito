@@ -247,7 +247,7 @@ function IndexNavbar() {
               
               <NavItem>
                 <NavLink
-                  href="#"
+                  href="https://web.facebook.com/psicologaMariaEsposito/"
                   target="_blank"
                   id="facebook-tooltip2"
                 >

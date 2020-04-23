@@ -31,7 +31,7 @@ export default function AttivitaDSA() {
       <IndexNavbar />
       <div className="wrapper">
         <PageHeader 
-        title="ATTIVITA AREA APPRENDIMENTO - DSA"
+        title="ATTIVITÀ AREA APPRENDIMENTO - DSA"
         image="bg8.jpg" />
         <div className="section section-about-us">
           <Container>

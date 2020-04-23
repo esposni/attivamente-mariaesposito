@@ -31,7 +31,7 @@ export default function AttivitaAdulti() {
       <IndexNavbar />
       <div className="wrapper">
         <PageHeader 
-        title="ATTIVITA AREA CLINICA  ADULTI"
+        title="ATTIVITÀ AREA CLINICA  ADULTI"
         image="bg8.jpg" />
         <div className="section section-about-us">
           <Container>

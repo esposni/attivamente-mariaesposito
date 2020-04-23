@@ -31,7 +31,7 @@ export default function AttivitaInfanzia() {
       <IndexNavbar />
       <div className="wrapper">
         <PageHeader 
-        title="ATTIVITA AREA CLINICA  INFANZIA"
+        title="ATTIVITÀ AREA CLINICA  INFANZIA"
         image="bg8.jpg" />
         <div className="section section-about-us">
           <Container>
