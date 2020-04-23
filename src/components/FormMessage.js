@@ -12,12 +12,21 @@ import {
 
 export default function FormazioneAvanzataPage() {
 const [firstFocus, setFirstFocus] = React.useState(false);
+// eslint-disable-next-line 
   const [lastFocus, setLastFocus] = React.useState(false);
     return (
     
-<div className="section section-contact-us text-center">
-<Container>
-  <h2 className="title">Scrivimi</h2>
+   
+<div className="section section-contact-us">
+
+  <Container>
+  
+        <Row>
+          <Col className="ml-auto mr-auto " md="8">
+          <h2 className="title" align="center">Scrivimi</h2>
+          <h5 ><b>Per avere maggiori informazioni contattami telefonando o scrivendo una mail a cui risponderò nell’arco delle 24 ore</b></h5>
+            </Col>
+        </Row>
   {/* <p className="description">Your project is very important to us.</p> */}
   <Row>
     <Col className="text-center ml-auto mr-auto" lg="6" md="8">
@@ -39,7 +48,7 @@ const [firstFocus, setFirstFocus] = React.useState(false);
           onBlur={() => setFirstFocus(false)}
         ></Input>
       </InputGroup>
-      <InputGroup
+      {/* <InputGroup
         className={
           "input-lg" + (lastFocus ? " input-group-focus" : "")
         }
@@ -56,7 +65,7 @@ const [firstFocus, setFirstFocus] = React.useState(false);
           onFocus={() => setLastFocus(true)}
           onBlur={() => setLastFocus(false)}
         ></Input>
-      </InputGroup>
+      </InputGroup> */}
       <div className="textarea-container">
         <Input
           cols="80"
@@ -77,6 +86,8 @@ const [firstFocus, setFirstFocus] = React.useState(false);
             let form=document.getElementById("form1");
             let textarea=form.elements["body"];
             let message=document.getElementById("message").value;
+            let name=document.getElementById("name").value;
+            message+="\n"+name;
             textarea.value=message;
             // console.log(textarea.value);
             form.submit();

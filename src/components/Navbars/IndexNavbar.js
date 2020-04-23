@@ -74,7 +74,7 @@ function IndexNavbar() {
               src={require("assets/img/logo1.png")} 
               
             /> */}
-            AttivaMente
+            <b>AttivaMente</b>
              
             </NavbarBrand>
             {/* <UncontrolledTooltip target="#navbar-brand">
