@@ -37,7 +37,10 @@ export default function AttivitaAdulti() {
           <Container>
             <Row>
               <Col className="ml-auto mr-auto " md="8">
-              
+              <img
+                      alt="..."
+                      src={require("assets/img/riv_psico.jpg")}
+                    ></img>
                 <h2 className="title" align="center">Perché rivolgersi allo psicologo</h2>
                 <h5 >Tutti noi possiamo attraversare  momenti difficili nel corso della nostra vita. A volte cerchiamo e troviamo da soli le soluzioni ai nostri problemi altre volte ci sembra tutto più difficile e ci sentiamo come bloccati. Se non ha senso sopportare un dolore fisico, un mal di schiena, una mal di denti, perché dovremmo sopportare un dolore emotivo?
  Riconoscere un disagio o una debolezza è in realtà un atto di coraggio e di apertura mentale che ci porta a chiedere un aiuto esterno.
@@ -52,7 +55,10 @@ Nel mio studio puoi trovare  consulenza e  sostegno psicologico che  possono ess
   <li>problematiche legate all’ansia;</li>
   <li>problematiche legate alla gestione dei figli nei periodi dell’infanzia e dell’adolescenza. </li>
 </ul></h5>
-
+<img
+                      alt="..."
+                      src={require("assets/img/cons_psico.jpg")}
+                    ></img>
 <h2 className="title" align="center">Consulenza Psicologica: in cosa consiste</h2>
 <h5>E’ un processo finalizzato ad aiutare la persona a risolvere un problema o a prendere una decisione in un arco di tempo breve e delimitato
  Il  fine è di rendere possibili scelte e cambiamenti in situazioni percepite come difficili dalla persona ma non costruite come invalidanti il proprio senso di identità personale.
@@ -61,6 +67,10 @@ Nel mio studio puoi trovare  consulenza e  sostegno psicologico che  possono ess
 
 Si tratta di un intervento breve anche di pochi incontri o comunque limitato; impostato su un obiettivo ben precisato e il più possibilmente definito; efficace verso la risoluzione del problema e/o della presa di decisione.
 </h5>
+<img
+                      alt="..."
+                      src={require("assets/img/percorso_psico.jpg")}
+                    ></img>
 <h2 className="title" align="center">Percorso di sostegno psicologico: in cosa consiste</h2>
 <h5>E’ un intervento che vede presente  nella richiesta della persona un’urgenza emotiva  e rappresenta  un supporto  finalizzato ad  alleviarne il disagio.
  Il percorso   ha l’obiettivo di rafforzare le strutture dell’io e le capacità di adattamento della persona per raggiungere e mantenere uno stato di benessere. 
