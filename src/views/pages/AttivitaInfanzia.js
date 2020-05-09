@@ -13,6 +13,7 @@ import IndexNavbar from "components/Navbars/IndexNavbar";
 import PageHeader from "components/Headers/PageHeader";
 import DefaultFooter from "components/Footers/DefaultFooter.js";
 import FormMessage from"components/FormMessage.js";
+import PositionInfo from"components/PositionInfo.js";
 // import AlertDialogSlide from "components/PopUpButton.js";
 
 export default function AttivitaInfanzia() {
@@ -122,46 +123,7 @@ A seconda dei singoli casi, potrebbe essere indicato per i genitori fare un perc
           </Container>
         </div>
 
-        {/* <div className="section section-team text-center">
-          <Container>
-            <h2 className="title">Dove trovarmi</h2>
-            <div className="team">
-              <Row>
-                <Col md="4">
-                  <div className="team-player">
-                    <img
-                      alt="..."
-                      className="rounded-circle img-fluid img-raised"
-                      src={require("assets/img/studio-milano.jpg")}
-                    ></img>
-                    <h4 className="title">Centro Mindfulness Milano</h4>
-                 
-                   
-                    Via Cenisio, 5 <br/>
-                    Per contattarmi: 338 2331754
-                    
-                   
-                  </div>
-                </Col>
-                <Col md="4">
-                  <div className="team-player">
-                    <img
-                      alt="..."
-                      className="rounded-circle img-fluid img-raised"
-                      src={require("assets/img/studio2.png")}
-                    ></img>
-                    <h4 className="title">Studio privato</h4>
-                  
-                    Via Auguadri 22 Como
-               
-                   
-                  </div>
-                </Col>
-               
-              </Row>
-            </div>
-          </Container>
-        </div> */}
+        <PositionInfo/>
         <FormMessage/>
         <DefaultFooter />
       </div>

@@ -19,6 +19,7 @@ import IndexNavbar from "components/Navbars/IndexNavbar";
 import ProfilePageHeader from "components/Headers/ProfilePageHeader.js";
 import DefaultFooter from "components/Footers/DefaultFooter.js";
 import FormMessage from"components/FormMessage.js";
+import PositionInfo from"components/PositionInfo.js";
 
 function ProfilePage() {
   // const [pills, setPills] = React.useState("2");
@@ -189,6 +190,7 @@ Lavoro da circa 16 anni anche nel campo dell’orientamento scolastico e profess
               </TabContent>
             </Row> */}
           </Container>
+          <PositionInfo/>
           <FormMessage/>
         </div>
         <DefaultFooter />

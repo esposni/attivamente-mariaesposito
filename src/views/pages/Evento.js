@@ -13,6 +13,7 @@ import IndexNavbar from "components/Navbars/IndexNavbar";
 import RitiriPageHeader from "components/Headers/RitiriPageHeader.js";
 import DefaultFooter from "components/Footers/DefaultFooter.js";
 import FormMessage from"components/FormMessage.js";
+import PositionInfo from"components/PositionInfo.js";
 // import AlertDialogSlide from "components/PopUpButton.js";
 // import { isPropertySignature } from "typescript";
 
@@ -58,7 +59,7 @@ export default function EventoPage(props) {
           
           </Container>
         </div>
-
+       <PositionInfo/>
         <FormMessage/>
         <DefaultFooter />
       </div>
