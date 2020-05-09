@@ -176,29 +176,7 @@ function IndexNavbar() {
               </UncontrolledDropdown>
 
 
-              <UncontrolledDropdown nav>
-                <DropdownToggle
-                  caret
-                  color="default"
-                  href="#pablo"
-                  nav
-                  onClick={e => e.preventDefault()}
-                >
-                  <i className="now-ui-icons design_app mr-1"></i>
-                  <p>ATTIVITÀ AREA APPRENDIMENTO</p>
-                </DropdownToggle>
-                <DropdownMenu>
-                <DropdownItem to="/adulti" tag={Link} >
-                   ABILITÀ SCOLASTICHE
-                  </DropdownItem>
-                  <DropdownItem to="/formazione" tag={Link}>
-                  DSA
-                  </DropdownItem>
-                  <DropdownItem to="/formazione" tag={Link}>
-                  SERVIZI ALLE SCUOLE
-                  </DropdownItem>
-                </DropdownMenu>
-              </UncontrolledDropdown>
+             
 
               <UncontrolledDropdown nav>
                 <DropdownToggle
