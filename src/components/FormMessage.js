@@ -24,7 +24,7 @@ const [firstFocus, setFirstFocus] = React.useState(false);
         <Row>
           <Col className="ml-auto mr-auto " md="8">
           <h2 className="title" align="center">Scrivimi</h2>
-          <h5 ><b>Per avere maggiori informazioni contattami telefonando o scrivendo una mail a <a href="mailto:attivamentemariaesposito@gmail.com">attivamentemariaesposito@gmail.com</a>, a cui risponderò nell’arco delle 24 ore</b></h5>
+          <h5 ><b>Per avere maggiori informazioni contattami telefonando a <u>+39 339 5321 446</u> o scrivendo una mail a <a href="mailto:attivamentemariaesposito@gmail.com">attivamentemariaesposito@gmail.com</a>, a cui risponderò nell’arco delle 24 ore</b></h5>
             </Col>
         </Row>
   {/* <p className="description">Your project is very important to us.</p> */}
