@@ -14,7 +14,7 @@ export default function PositionInfo() {
         <h2 className="title">Dove trovarmi</h2>
         <div className="team">
           <Row>
-            <Col md="4">
+          <Col className="ml-auto mr-auto" md="8">
               <div className="team-player">
                 <img
                   alt="..."

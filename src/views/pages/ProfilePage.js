@@ -9,8 +9,8 @@ import {
   // TabContent,
   // TabPane,
   Container,
-  // Row,
-  // Col,
+  Row,
+  Col,
   // UncontrolledTooltip
 } from "reactstrap";
 
@@ -37,8 +37,11 @@ function ProfilePage() {
       <IndexNavbar />
       <div className="wrapper">
         <ProfilePageHeader />
-        <div className="section">
+        <div className="section section-about-us">
+          
           <Container>
+          <Row>
+          <Col className="ml-auto mr-auto" md="8">
             <h3 className="title">Chi sono</h3>
             <h5 >
             Mi sono laureata in psicologia ad indirizzo clinico e di comunità nel 1993 e ho ottenuto l’abilitazione all’esercizio della professione presso l’Università di Padova. Dal 1996 sono iscritta all’albo degli psicologi della Lombardia e lavoro come libera professionista. Nel  2002 ho conseguito il master biennale in  psicologia scolastica presso  il Centro Bruner. Dal 2018 faccio parte dell’equipe dell’associazione La Fenice, Centro per i disturbi del linguaggio e dell’apprendimento in età evolutiva, struttura accreditata da ATS Brianza per la prima certificazione DSA. Accompagno l’attività clinica  in studio con l’attività di consulente a scuola e ad Enti.  
@@ -47,7 +50,8 @@ Sul tema della disabilità in età evolutiva, ho curato i progetti di Anfass Ser
 Lavoro da circa 16 anni anche nel campo dell’orientamento scolastico e professionale. Sono  accredita come professionista di orientamento dall’associazione SIO (Società Italiana di Orientamento), associazione che nasce dal gruppo di ricerca del Larios dell’Università di Padova. Ho realizzato vari  percorsi di formazione per docenti e genitori e di consulenza orientativa rivolta agli alunni delle medie e superiori in diversi istituti scolastici.   Sono consulente presso vari Enti accreditati per i servizi di formazione e lavoro, realizzo percorsi di orientamento e accompagnamento al lavoro di persone svantaggiate e disabili, in rete con i servizi territoriali e percorsi di formazione di gruppo volti allo sviluppo  di  competenze trasversali. 
 
             </h5>
-          
+          </Col>
+          </Row>
             {/* <Row>
               <Col className="ml-auto mr-auto" md="6">
                 <h4 className="title text-center">My Portfolio</h4>
@@ -189,10 +193,11 @@ Lavoro da circa 16 anni anche nel campo dell’orientamento scolastico e profess
                 </TabPane>
               </TabContent>
             </Row> */}
+            
           </Container>
+        </div>
           <PositionInfo/>
           <FormMessage/>
-        </div>
         <DefaultFooter />
       </div>
     </>
