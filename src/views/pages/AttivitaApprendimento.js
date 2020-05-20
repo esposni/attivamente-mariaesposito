@@ -1,11 +1,11 @@
 import React from "react";
-
+import {Button} from "reactstrap";
 // reactstrap components
 import {
  
   Container,
   Row,
-  Col
+  Col,
 } from "reactstrap";
 // import { Link } from "react-router-dom";
 // core components
@@ -17,6 +17,30 @@ import PositionInfo from"components/PositionInfo.js";
 // import AlertDialogSlide from "components/PopUpButton.js";
 
 export default function AttivitaApprendimento() {
+  const [showResults, setShowResults] = React.useState(false)
+  const onClick = () => { 
+    if(showResults===false){
+      setShowResults(true)
+    }else{
+      setShowResults(false)
+    }
+  }
+  const MoreInfo = () => (
+    <div id="results" className="search-results">
+       <img
+              alt="..."
+              className=""
+              src={require("assets/img/apprendimento/apprendimento1.png")}
+            />
+            <img
+              alt="..."
+              className=""
+              src={require("assets/img/apprendimento/apprendimento2.png")}
+            />
+    </div>
+  )
+  
+  
   React.useEffect(() => {
     document.body.classList.add("landing-page");
     document.body.classList.add("sidebar-collapse");
@@ -73,19 +97,16 @@ LAB-METODO Studiare consapevolmente conviene enormemente <br/>
 LAB-ANSIA MATTA Meno preoccupazioni più riflessioni <br/>
 LAB-GAME TRAINER Allenare il cervello con il gioco è più bello <br/>
 </h5>
-<h5><b>Per approfondire…
+<h5><b>
 La mia visione di apprendimento e gli obiettivi che ne derivano nel mio modello di intervento 
 </b></h5>
-<img
-              alt="..."
-              className=""
-              src={require("assets/img/apprendimento/apprendimento1.png")}
-            />
-            <img
-              alt="..."
-              className=""
-              src={require("assets/img/apprendimento/apprendimento2.png")}
-            />
+<Button 
+block
+className="btn-round"
+color="info"
+size="lg"
+onClick={onClick}>Click qui per approfondire</Button>
+{ showResults ? <MoreInfo /> : null }
 
 
 
